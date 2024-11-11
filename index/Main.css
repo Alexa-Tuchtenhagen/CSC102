@@ -35,9 +35,12 @@ footer{
 }
 
 #MissPRImage{
+    position: absolute; /*this will allow us to move the image around*/
     margin-right: 200px;
     width: 600px;
     height: 400px;
+    left: 100px;
+    top: 100px;
 }
 
 
