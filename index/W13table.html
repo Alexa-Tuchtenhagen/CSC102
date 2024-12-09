@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W13 Table Example</title>
+    <!-- add some embedded CSS to make our table look better -->
+    <style>
+        table{
+            width: 80%;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid black;
+            text-align: left;
+            padding: 10px;
+        }
+        
+        th{
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table Example</h1>
+
+    <!-- to create a table use table tag; data is displayed in rows and collus; like excel sheet -->
+    <table>
+        <!-- <tr>this meens table row<tr> -->
+        <tr>
+            <!-- <th>this meens table head<th> -->
+            <th>Language</th>
+            <th>Fact</th>
+        </tr>
+
+        <tr>
+            <!-- <td>is the table data / cell / column <td> -->
+            <td>JavaScript</td>
+            <td>JavaScript was created by Brandon Eich over a week during the holidays</td>
+        </tr>
+
+        <tr>
+            <td>Python</td>
+            <td>Python was created by Guido van Rossum over a weekend and was firsted released in 1991</td>
+        </tr>
+
+        <tr>
+            <td>C++</td>
+            <td>C++ was developed by Bjarne Stroutstup at Bells lab as an extension of the C programming language</td>
+        </tr>
+
+        <tr>
+            <td>Java</td>
+            <td>Java was developed by James Gosling in Sun Microsystems and firsted released in 1995</td>
+        </tr>
+
+        <tr>
+            <td>HTML</td>
+            <td>HTML was created by Tim Berners-Lee in 1991 while he was working at CERN</td>
+        </tr>
+    </table>
+</body>
+</html>
