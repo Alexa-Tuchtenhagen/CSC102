@@ -35,10 +35,10 @@
             }
             else if(die1 == die2 && die1 % 2 == 0){
                 //if the numbers are the same and there is no remainder, you win
-                document.getElementById("gameResult").textContent = "You Win"
+                document.getElementById("gameResult").textContent = "You Lose (You Pushed)"
             }
             else{
-                document.getElementById("gameResult").textContent = "You Tied (You Pushed)"
+                document.getElementById("gameResult").textContent = "You Win!"
             }
 
         }
@@ -55,6 +55,21 @@
 <body>
     <header>
         <h1>Welcome to My Dice Game. Click the button to play.</h1>
+        <nav>
+            <!-- file name/ navigate page/ makes links to other pages -->
+             <!-- <a means anchor tag (link to another page) -->
+             <a href="CSC102 Index Page.html">Home</a>
+             <br>
+             <a href="Boards.html">Boards</a>
+             <br>
+             <a href="Palindrome.html">Palindrome</a>
+             <br>
+             <a href="W3Game.html">Game</a>
+             <br> 
+             <a href="W13table.html">Table</a>
+             <br>
+             <a href="W6.LoginPage.html">Validation</a>
+         </nav>
     </header>
     
     <main>
